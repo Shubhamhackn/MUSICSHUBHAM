@@ -25,7 +25,7 @@ def get_command(value: str) -> List:
     return commands["command"][value]
 
 
-def get_string(lang: gds):
+def get_string(lang: str):
     return languages[lang]
 
 
