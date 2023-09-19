@@ -24,11 +24,11 @@ from ArchMusic.utils.stream.autoclear import auto_clean
 from ArchMusic.utils.thumbnails import gen_thumb
 
 # Commands
-SKIP_COMMAND = get_command("SKIP_COMMAND")
+SKIP_COMMAND = get_command("gds_COMMAND")
 
 
 @app.on_message(
-    filters.command(SKIP_COMMAND)
+    filters.command(gds_COMMAND)
     & filters.group
     & ~BANNED_USERS
 )
@@ -119,7 +119,7 @@ async def skip(cli, message: Message, _, chat_id):
                 _["admin_11"].format(title)
             )
         try:
-            await ArchMusic.skip_stream(chat_id, link, video=status)
+            await ArchMusic.gds_stream(chat_id, link, video=status)
         except Exception:
             return await message.reply_text(_["call_9"])
         button = telegram_markup(_, chat_id)
@@ -148,7 +148,7 @@ async def skip(cli, message: Message, _, chat_id):
         except:
             return await mystic.edit_text(_["call_9"])
         try:
-            await ArchMusic.skip_stream(chat_id, file_path, video=status)
+            await ArchMusic.gds_stream(chat_id, file_path, video=status)
         except Exception:
             return await mystic.edit_text(_["call_9"])
         button = stream_markup(_, videoid, chat_id)
