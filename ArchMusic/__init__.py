@@ -8,7 +8,7 @@
 # All rights reserved.
 #
 
-from ArchMusic.core.bot import gds
+from ArchMusic.core.bot import ArchMusic
 from ArchMusic.core.dir import dirr
 from ArchMusic.core.git import git
 from ArchMusic.core.userbot import Userbot
