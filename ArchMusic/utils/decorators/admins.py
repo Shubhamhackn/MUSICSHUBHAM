@@ -12,7 +12,7 @@ from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import adminlist
-from strings import get_gds
+from strings import get_string
 from ArchMusic import app
 from ArchMusic.misc import SUDOERS
 from ArchMusic.utils.database import (get_authuser_names, get_cmode,
