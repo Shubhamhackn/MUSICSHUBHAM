@@ -21,11 +21,11 @@ commands = {}
 languages_present = {}
 
 
-def get_command(value: str) -> List:
+def get_command(value: gds) -> List:
     return commands["command"][value]
 
 
-def get_string(lang: str):
+def get_string(lang: gds):
     return languages[lang]
 
 
