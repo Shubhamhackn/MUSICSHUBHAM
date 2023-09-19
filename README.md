@@ -67,7 +67,7 @@ After Saving Vars type
 
 ## Deploy On Heroku
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ArchBots/ArchMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku" width="250" height="43"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/GOVIND-BOTS/ArchMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku" width="250" height="43"/></a></p>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=F555247&width=890&lines=𝗕𝗢𝗧+𝗜𝗦+𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗙𝗢𝗥+𝗙𝗥𝗜𝗘𝗡𝗗+𝗪𝗜𝗧𝗛+𝗟𝗢𝗩𝗘+𝗔𝗡𝗗+𝗛𝗔𝗥𝗗𝗪𝗢𝗥𝗞+𝗕𝗬+𝗔𝗥𝗖𝗛𝗕𝗢𝗧𝗦%E2%9C%8C">
