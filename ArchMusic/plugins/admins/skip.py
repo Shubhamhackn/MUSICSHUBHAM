@@ -24,11 +24,11 @@ from ArchMusic.utils.stream.autoclear import auto_clean
 from ArchMusic.utils.thumbnails import gen_thumb
 
 # Commands
-SKIP_COMMAND = get_command("SKIP_COMMAND")
+SKIP_COMMAND = get_command("SHUBHAM_COMMAND")
 
 
 @app.on_message(
-    filters.command(SKIP_COMMAND)
+    filters.command(SHUBHAM_COMMAND)
     & filters.group
     & ~BANNED_USERS
 )
